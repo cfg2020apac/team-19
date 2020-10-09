@@ -21,7 +21,7 @@ function ClientDetails4(props) {
           </View>
         </View>
       </View>
-      <Text style={styles.loremIpsum1}>SELECT SERVICES REQUIRED</Text>
+      <Text style={styles.texxt1}>SELECT SERVICES REQUIRED</Text>
       <TouchableOpacity style={styles.button2}>
         <Text style={styles.legalCouncelling}>Legal Councelling</Text>
       </TouchableOpacity>
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   rect1: {
     width: 415,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     flexDirection: "row",
@@ -62,13 +62,14 @@ const styles = StyleSheet.create({
   button1: {
     width: 76,
     height: 38,
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   back2: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60,
     marginTop: 10,
@@ -80,8 +81,9 @@ const styles = StyleSheet.create({
     width: 76,
     height: 38,
     position: "absolute",
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   done: {
@@ -89,7 +91,7 @@ const styles = StyleSheet.create({
     left: 20,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60
   },
@@ -105,9 +107,10 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     marginTop: 12
   },
-  loremIpsum1: {
+  texxt1: {
     fontFamily: "roboto-700",
     color: "rgba(121,60,174,1)",
+    fontWeight: 'bold',
     height: 33,
     width: 315,
     fontSize: 20,
@@ -120,13 +123,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 57,
     marginLeft: 56
   },
   legalCouncelling: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -139,13 +142,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 23,
     marginLeft: 63
   },
   jobCoach: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -158,13 +161,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rrgb(127,46,128)",
     marginTop: 33,
     marginLeft: 63
   },
   medicalCare: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -177,13 +180,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 33,
     marginLeft: 63
   },
   housingHelp: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -196,13 +199,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 43,
     marginLeft: 63
   },
   financialServices: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -212,7 +215,7 @@ const styles = StyleSheet.create({
   image1: {
     width: 94,
     height: 68,
-    marginTop: -694,
+    marginTop: -700,
     marginLeft: 150
   }
 });
