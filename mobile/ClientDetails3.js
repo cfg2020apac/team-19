@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   rect1: {
     width: 420,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     flexDirection: "row",
@@ -60,13 +60,14 @@ const styles = StyleSheet.create({
   button2: {
     width: 76,
     height: 38,
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   back1: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60,
     marginTop: 10,
@@ -78,8 +79,9 @@ const styles = StyleSheet.create({
     width: 76,
     height: 38,
     position: "absolute",
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   next1: {
@@ -87,7 +89,7 @@ const styles = StyleSheet.create({
     left: 50,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60
   },
@@ -110,13 +112,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 44,
     marginLeft: 56
   },
   passport: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 31,
     width: 176,
     fontSize: 30,
@@ -129,26 +131,18 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
-    shadowColor: "rgba(126,211,33,1)",
-    shadowOffset: {
-      width: 3,
-      height: 3
-    },
-    elevation: 5,
-    shadowOpacity: 1,
-    shadowRadius: 0,
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 42,
     marginLeft: 56
   },
   nric: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 31,
     width: 176,
     fontSize: 30,
-    marginTop: 24,
-    marginLeft: 56
+    marginTop: 18,
+    marginLeft: 60
   },
   button5: {
     top: 0,
@@ -159,14 +153,14 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)"
+    backgroundColor: "rgb(127,46,128)"
   },
   incomeDocument: {
     top: 18,
     left: 29,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 31,
     width: 278,
     fontSize: 25
@@ -186,22 +180,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000000",
     borderRadius: 55,
-    backgroundColor: "rgba(126,211,33,1)",
-    shadowColor: "rgba(126,211,33,1)",
-    shadowOffset: {
-      width: 3,
-      height: 3
-    },
-    elevation: 5,
-    shadowOpacity: 1,
-    shadowRadius: 0
+    backgroundColor: "rrgb(127,46,128)",
+
   },
   others: {
     top: 18,
     left: 81,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 31,
     width: 176,
     fontSize: 30
