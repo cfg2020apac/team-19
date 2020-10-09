@@ -42,3 +42,4 @@ out/
 ### Log File storage ###
 .tmp/
 /.idea/modules.xml
+node_modules
