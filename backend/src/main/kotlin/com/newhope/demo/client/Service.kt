@@ -14,7 +14,7 @@ class Service(
 
     val type: String,
 
-    val progress: String,
+    var progress: String,
 
     val result: String,
 

@@ -10,6 +10,9 @@ class Client (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int = 0,
 
+    @Column(name = "user_id")
+    val userId: Int,
+
     // basic info
     @Column(name = "first_name")
     var firstName: String,
