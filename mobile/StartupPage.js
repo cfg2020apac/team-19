@@ -32,12 +32,12 @@ const styles = StyleSheet.create({
     borderColor: "#000000"
   },
   rect: {
-    width: 410,
+    width: 415,
     height: 600,
     borderWidth: 1,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)",
-    borderRadius: 30,
+    backgroundColor: "rgb(178,97,179)",
+    borderRadius: 5,
     marginTop: 346
   },
   button1: {
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     height: 65,
     borderWidth: 1,
     borderColor: "#000000",
-    backgroundColor: "rgba(121,60,174,1)",
-    borderRadius: 36,
+    backgroundColor: "rgb(127,46,128)",
+    borderRadius: 5,
     marginTop: 126,
     marginLeft: 40
   },
@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     height: 65,
     borderWidth: 1,
     borderColor: "#000000",
-    backgroundColor: "rgba(109,58,157,1)",
-    borderRadius: 36,
+    backgroundColor: "rgb(127,46,128)", 
+    borderRadius: 5,
     marginTop: 75,
     marginLeft: 40
   },
@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
     width: 200,
     height: 200,
     marginTop: -900,
-    marginLeft: 88
+    marginLeft: 100
+
   }
 });
 
