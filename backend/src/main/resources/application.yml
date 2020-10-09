@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3308/newhope?characterEncoding=UTF-8&serverTimezone=Asia/Jakarta
     username: root
     password: 1234
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     initSQL: "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci"
   jpa:
     hibernate:
