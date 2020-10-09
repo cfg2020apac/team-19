@@ -18,8 +18,8 @@ function ClientProfile(props) {
         Phone Number :{"\n"}Email:{"\n"}Status:
       </Text>
       <View style={styles.rect2}></View>
-      <View style={styles.loremIpsumStack}>
-        <Text style={styles.loremIpsum}>
+      <View style={styles.texxtStack}>
+        <Text style={styles.texxt}>
           Pending Activities: {"\n"}
           {"\n"}
           {"\n"}Notes: XXXXXXXXXX
@@ -30,8 +30,8 @@ function ClientProfile(props) {
         ></TouchableOpacity>
         <Text style={styles.seeTimeline}>See Timeline</Text>
       </View>
-      <View style={styles.loremIpsum2Stack}>
-        <Text style={styles.loremIpsum2}></Text>
+      <View style={styles.texxt2Stack}>
+        <Text style={styles.texxt2}></Text>
         <Text style={styles.documents}>Documents</Text>
       </View>
       <View style={styles.rect3}></View>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   rect1: {
     width: 420,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     flexDirection: "row",
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   clientName: {
     fontFamily: "roboto-700",
     fontWeight:'bold',
-    color: "rgba(121,60,174,1)",
+    color: "rgb(255,255,255)",
     height: 37,
     width: 136,
     fontSize: 20,
@@ -113,14 +113,14 @@ const styles = StyleSheet.create({
     marginLeft: 13
   },
   rect2: {
-    width: 387,
+    width: 420,
     height: 1,
     backgroundColor: "#E6E6E6",
     borderWidth: 1,
     borderColor: "#000000",
     marginTop: 14
   },
-  loremIpsum: {
+  texxt: {
     top: 1,
     left: 0,
     position: "absolute",
@@ -147,13 +147,13 @@ const styles = StyleSheet.create({
     height: 14,
     width: 127
   },
-  loremIpsumStack: {
+  texxtStack: {
     width: 307,
     height: 63,
     marginTop: 34,
     marginLeft: 13
   },
-  loremIpsum2: {
+  texxt2: {
     top: 0,
     left: 95,
     position: "absolute",
@@ -167,18 +167,19 @@ const styles = StyleSheet.create({
     left: 0,
     position: "absolute",
     fontFamily: "roboto-regular",
+    fontWeight:'bold',
     color: "#121212",
     height: 22,
     width: 153
   },
-  loremIpsum2Stack: {
+  texxt2Stack: {
     width: 163,
     height: 33,
     marginTop: 68,
     marginLeft: 15
   },
   rect3: {
-    width: 387,
+    width: 420,
     height: 2,
     backgroundColor: "#E6E6E6",
     borderWidth: 1,
@@ -188,15 +189,15 @@ const styles = StyleSheet.create({
   button1: {
     width: 248,
     height: 33,
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 58,
     marginLeft: 63
   },
   passport: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -206,15 +207,15 @@ const styles = StyleSheet.create({
   button2: {
     width: 248,
     height: 33,
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 22,
     marginLeft: 63
   },
   nric: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -224,15 +225,15 @@ const styles = StyleSheet.create({
   button3: {
     width: 248,
     height: 33,
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 30,
     marginLeft: 65
   },
   incomeDocuments: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 29,
     width: 186,
     fontSize: 20,
@@ -242,15 +243,15 @@ const styles = StyleSheet.create({
   button4: {
     width: 248,
     height: 33,
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(127,46,128)",
     marginTop: 18,
     marginLeft: 63
   },
   otherDocuments: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 24,
     width: 168,
     fontSize: 20,
@@ -262,16 +263,16 @@ const styles = StyleSheet.create({
     width: 123,
     height: 36,
     position: "absolute",
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(126,211,33,1)"
+    backgroundColor: "rgb(127,46,128)"
   },
   editDetails: {
     top: 10,
     left: 23,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 15,
     width: 108
   },
@@ -283,20 +284,20 @@ const styles = StyleSheet.create({
   },
   button6: {
     top: 0,
-    left: 0,
-    width: 131,
+    left: 10,
+    width: 90,
     height: 20,
     position: "absolute",
-    backgroundColor: "rgba(126,211,33,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
     borderColor: "#000000"
   },
   back: {
     top: 0,
-    left: 30,
+    left: 40,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 20,
     width: 108
   },
@@ -310,7 +311,7 @@ const styles = StyleSheet.create({
     width: 94,
     height: 68,
     marginTop: -172,
-    marginLeft: 136
+    marginLeft: 150
   }
 });
 
