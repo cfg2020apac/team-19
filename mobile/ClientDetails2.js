@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   rect1: {
     width: 420,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     flexDirection: "row",
@@ -100,8 +100,9 @@ const styles = StyleSheet.create({
     width: 76,
     height: 34,
     position: "absolute",
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   back: {
@@ -109,7 +110,7 @@ const styles = StyleSheet.create({
     left: 23,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60
   },
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     fontWeight: 'bold',
     fontFamily: "roboto-700",
-    color: "rgba(121,60,174,1)",
+    color: "rgb(255,255,255)",
     height: 37,
     width: 242,
     fontSize: 20
@@ -134,13 +135,14 @@ const styles = StyleSheet.create({
     width: 76,
     height: 38,
     position: "absolute",
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   next1: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 60,
     marginTop: 6,
