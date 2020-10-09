@@ -57,13 +57,7 @@ export default function UserProfile() {
           <TouchableOpacity
             style={styles.button}
             onPress={() => {}}>
-            <Text style={{
-              color: '#9f3aa0',
-              textAlign:'center',
-              paddingLeft : 10,
-              paddingRight : 10,
-              fontSize : 18
-            }}>EDIT CLIENT</Text>
+            <Text style={styles.buttonText}>EDIT CLIENT</Text>
           </TouchableOpacity>
           <Text></Text>
         </View>
@@ -81,12 +75,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#b5d35d',
+    backgroundColor: '#B261B3',
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#9f3aa0',
+    color: 'white',
   },
   separator: {
     marginVertical: 10,
@@ -111,13 +105,13 @@ const styles = StyleSheet.create({
     marginTop:10,
     paddingTop:10,
     paddingBottom:10,
-    backgroundColor:'#b5d35d',
+    backgroundColor:'#7F2E80',
     borderRadius:10,
     borderWidth: 1,
     borderColor: '#fff',
   },
   buttonText:{
-      color: 'black',
+      color: 'white',
       textAlign:'center',
       paddingLeft : 10,
       paddingRight : 10,

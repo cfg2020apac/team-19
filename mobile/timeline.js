@@ -1,8 +1,6 @@
 import { preventAutoHide } from 'expo-splash-screen';
 import * as React from 'react';
-import { StyleSheet, Image, ScrollView, Button, SafeAreaView, TouchableOpacity } from 'react-native';
-
-import { Text, View } from '../components/Themed';
+import { StyleSheet, Image, ScrollView, Button, SafeAreaView, TouchableOpacity, Text, View } from 'react-native';
 
 export default function Timeline() {
   return (
@@ -89,12 +87,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#b5d35d',
+    backgroundColor: '#B261B3',
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#9f3aa0',
+    color: 'white',
   },
   separator: {
     marginVertical: 10,
