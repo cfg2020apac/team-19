@@ -34,7 +34,7 @@ function ClientsPage(props) {
               </View>
               <TouchableOpacity style={styles.button5}></TouchableOpacity>
             </View>
-            <Text style={styles.loremIpsum2}></Text>
+            <Text style={styles.texxt2}></Text>
           </View>
           <View style={styles.simranRajpalStack}>
             <Text style={styles.simranRajpal}>Simran Rajpal</Text>
@@ -63,7 +63,7 @@ function ClientsPage(props) {
         resizeMode="contain"
         style={styles.image1}
       ></Image>
-      <Text style={styles.loremIpsum}></Text>
+      <Text style={styles.texxt}></Text>
       <View style={styles.button6Stack}>
         <TouchableOpacity
           onPress={() => props.navigation.navigate("ClientDetails")}
@@ -82,14 +82,14 @@ const styles = StyleSheet.create({
   rect1: {
     width: 450,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     marginTop: 116
   },
   myClients: {
     fontFamily: "roboto-700",
-    color: "rgba(121,60,174,1)",
+    color: "rgba(255,255,255,1)",
     height: 37,
     width: 242,
     fontSize: 20,
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     width: 513,
     height: 90
   },
-  loremIpsum2: {
+  texxt2: {
     fontFamily: "roboto-regular",
     color: "#121212",
     marginLeft: 273,
@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
     marginTop: -715,
     marginLeft: 150
   },
-  loremIpsum: {
+  texxt: {
     fontFamily: "roboto-regular",
     color: "#121212",
     height: 18,
@@ -343,8 +343,9 @@ const styles = StyleSheet.create({
     width: 188,
     height: 43,
     position: "absolute",
-    backgroundColor: "rgba(126,211,33,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000"
   },
   createNew: {
@@ -353,7 +354,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     fontFamily: "roboto-700",
     fontWeight: 'bold',
-    color: "rgba(121,60,174,1)",
+    color: "rgba(255,255,255,1)",
     height: 22,
     width: 166
   },
