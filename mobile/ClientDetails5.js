@@ -4,7 +4,7 @@ import { StyleSheet, View, Text, TouchableOpacity, Image } from "react-native";
 function ClientDetails5(props) {
   return (
     <View style={styles.container}>
-      <Text style={styles.loremIpsum}>
+      <Text style={styles.texxt}>
         CONGRATULATIONS!{"\n"}
         {"\n"} USER CREATED {"\n"}
         {"\n"}#Let&#39;shelponemore!
@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1
   },
-  loremIpsum: {
+  texxt: {
     fontFamily: "roboto-700",
-    color: "rgba(121,60,174,1)",
+    color: "rgb(0,0,0)",
     height: 284,
     width: 347,
     fontSize: 36,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   rect1: {
     width: 415,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     marginTop: -385,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   },
   success: {
     fontFamily: "roboto-700",
-    color: "rgba(121,60,174,1)",
+    color: "rgb(255,255,255)",
     height: 50,
     width: 390,
     fontSize: 50,
@@ -61,15 +61,16 @@ const styles = StyleSheet.create({
   button1: {
     width: 117,
     height: 44,
-    backgroundColor: "rgba(126,229,9,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius:5,
     borderColor: "#000000",
     marginTop: 386,
     marginLeft: 129
   },
   returnToHome: {
     fontFamily: "roboto-700",
-    color: "#121212",
+    color: "#FFFFFF",
     height: 19,
     width: 105,
     marginTop: 13,
