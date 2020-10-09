@@ -40,3 +40,14 @@ data class ClientWithDetail(
     val services: List<Service>,
     val staffs: List<Staff>
 )
+
+data class ServiceCreateRequest(
+    val clientId: Int,
+    val type: String
+)
+
+data class ServiceUpdateRequest(
+    val serviceId: Int,
+    val clientId: Int,
+    val content: String
+)

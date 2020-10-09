@@ -12,9 +12,10 @@ class ClientService(
     private val documentService: DocumentService,
     private val staffService: StaffService
 ) {
-    fun createClient(createClientRequest: CreateClientRequest): ClientWithDetail {
+    fun createClient(userId: Int, createClientRequest: CreateClientRequest): ClientWithDetail {
         val client = clientRepository.save(
             Client(
+                userId = userId,
                 firstName = createClientRequest.firstName,
                 lastName = createClientRequest.lastName,
                 dateOfBirth = createClientRequest.dateOfBirth,
@@ -112,6 +113,18 @@ class ClientService(
 
     fun getAllClients(): List<ClientWithDetail> {
         val clients = clientRepository.findAll()
+        return clients.map {
+            ClientWithDetail(
+                client = it,
+                documents = documentService.getDocumentsByClientId(it.id),
+                services = serviceService.getAllServicesByClientId(it.id),
+                staffs = staffService.findAllStaffByClientId(clientId = it.id)
+            )
+        }
+    }
+
+    fun getAllClientsByUserId(userId: Int): List<ClientWithDetail> {
+        val clients = clientRepository.findAllByUserId(userId)
         return clients.map {
             ClientWithDetail(
                 client = it,
