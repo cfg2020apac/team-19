@@ -1,8 +1,6 @@
 import { preventAutoHide } from 'expo-splash-screen';
 import * as React from 'react';
-import { StyleSheet, Image, ScrollView, Button, SafeAreaView, TouchableOpacity } from 'react-native';
-
-import { Text, View } from '../components/Themed';
+import { StyleSheet, Image, ScrollView, Button, SafeAreaView, TouchableOpacity, Text, View } from 'react-native';
 
 export default function UserProfile() {
   return (
