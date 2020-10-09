@@ -3,7 +3,8 @@ package com.newhope.demo.client
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
-@RestController("/clients")
+@RestController
+@RequestMapping("/clients")
 class ClientController(
     private val clientService: ClientService
 ) {
