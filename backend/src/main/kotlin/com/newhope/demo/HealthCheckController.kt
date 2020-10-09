@@ -1,4 +1,4 @@
-package com.newhope.demo.controller
+package com.newhope.demo
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
@@ -7,16 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/test")
-class TestController {
+@RequestMapping("/health-check")
+class HealthCheckController {
 
     @GetMapping
-    fun test(): ResponseEntity<String> {
-        return ResponseEntity.ok("working!")
-    }
-
-    @PostMapping
-    fun testPost(): ResponseEntity<String> {
-        return ResponseEntity.ok("working!")
+    fun healthCheck(): ResponseEntity<String> {
+        return ResponseEntity.ok("healthy!")
     }
 }
