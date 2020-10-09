@@ -14,7 +14,7 @@ spring:
 
   flyway:
     enabled: true
-    url: jdbc:mysql://127.0.0.1:3308/newhope?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://127.0.0.1:3308/newhope?characterEncoding=UTF-8&serverTimezone=Asia/Jakarta
     baselineOnMigrate: true
     encoding: UTF-8
     out-of-order: true
