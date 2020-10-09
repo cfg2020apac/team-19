@@ -12,48 +12,48 @@ class Client (
 
     // basic info
     @Column(name = "first_name")
-    val firstName: String,
+    var firstName: String,
     @Column(name = "last_name")
-    val lastName: String,
+    var lastName: String,
     @Column(name = "date_of_birth")
-    val dateOfBirth: LocalDateTime,
-    val gender: String,
-    val address: String,
-    val phone: String,
-    val email: String,
-    val reason: String,
+    var dateOfBirth: LocalDateTime,
+    var gender: String,
+    var address: String,
+    var phone: String,
+    var email: String,
+    var reason: String,
 
     //further info
-    val income: String,
+    var income: String,
     @Column(name = "housing_status")
-    val housingStatus: String,
+    var housingStatus: String,
     @Column(name = "is_smoker")
-    val isSmoker: Boolean,
+    var isSmoker: Boolean,
     @Column(name = "is_drinker")
-    val isDrinker: Boolean,
+    var isDrinker: Boolean,
     @Column(name = "mental_health")
-    val mentalHealth: String,
+    var mentalHealth: String,
     @Column(name = "employment_status")
-    val employmentStatus: String,
+    var employmentStatus: String,
     @Column(name = "education_status")
-    val educationStatus: String,
-    val race: String,
-    val language: String, // another entity
-    val willingness: String,
+    var educationStatus: String,
+    var race: String,
+    var language: String, // another entity
+    var willingness: String,
     @Column(name = "martial_status")
-    val martialStatus: String,
-    val religion: String?,
+    var martialStatus: String,
+    var religion: String?,
 
     @Column(name = "legal_service_needed")
-    val legalServiceNeeded: Boolean,
+    var legalServiceNeeded: Boolean,
     @Column(name = "job_search_needed")
-    val jobSearchNeeded: Boolean,
+    var jobSearchNeeded: Boolean,
     @Column(name = "medical_care_needed")
-    val medicalCareNeeded: Boolean,
+    var medicalCareNeeded: Boolean,
     @Column(name = "housing_help_needed")
-    val housingHelpNeeded: Boolean,
+    var housingHelpNeeded: Boolean,
     @Column(name = "financial_service_needed")
-    val financialServiceNeeded: Boolean,
+    var financialServiceNeeded: Boolean,
 
     val created_at: LocalDateTime = LocalDateTime.now()
 )

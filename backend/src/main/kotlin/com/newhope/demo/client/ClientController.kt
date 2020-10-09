@@ -1,10 +1,7 @@
 package com.newhope.demo.client
 
 import org.springframework.http.ResponseEntity
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 
 @RestController("/clients")
 class ClientController(
@@ -19,5 +16,13 @@ class ClientController(
     @PostMapping
     fun createClient(@RequestBody createClientRequest: CreateClientRequest): ResponseEntity<ClientWithDetail> {
         return ResponseEntity.ok(clientService.createClient(createClientRequest))
+    }
+
+    @PutMapping
+    fun updateClient(
+        @RequestBody createClientRequest: CreateClientRequest,
+        @RequestBody clientID: Int
+    ): ResponseEntity<ClientWithDetail> {
+        return ResponseEntity.ok(clientService.updateClient(clientID, createClientRequest))
     }
 }
