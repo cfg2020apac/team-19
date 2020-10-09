@@ -28,8 +28,8 @@ function ClientScheduling(props) {
           <Text style={styles.activitiesTimeline}>ACTIVITIES TIMELINE</Text>
         </View>
       </View>
-      <View style={styles.loremIpsumRow}>
-        <Text style={styles.loremIpsum}></Text>
+      <View style={styles.texxtRow}>
+        <Text style={styles.texxt}></Text>
         <View style={styles.scrollAreaStack}>
           <View style={styles.scrollArea}>
             <ScrollView
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   rect: {
     width: 420,
     height: 78,
-    backgroundColor: "rgba(126,211,33,1)",
+    backgroundColor: "rgb(178,97,179)",
     borderWidth: 1,
     borderColor: "#000000",
     flexDirection: "row",
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   activitiesTimeline: {
     fontFamily: "roboto-700",
     fontWeight:'bold',
-    color: "rgba(121,60,174,1)",
+    color: "rgb(255,255,255)",
     height: 37,
     width: 242,
     fontSize: 20,
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     marginLeft: 21,
     marginTop: 9
   },
-  loremIpsum: {
+  texxt: {
     fontFamily: "roboto-regular",
     color: "#121212",
     marginTop: 15
@@ -206,8 +206,9 @@ const styles = StyleSheet.create({
     width: 116,
     height: 22,
     position: "absolute",
-    backgroundColor: "rgba(126,211,33,1)",
-    borderWidth: 1,
+    backgroundColor: "rgb(127,46,128)",
+    borderWidth: 0,
+    borderRadius: 5,
     borderColor: "#000000"
   },
   back: {
@@ -215,7 +216,7 @@ const styles = StyleSheet.create({
     left: 159,
     position: "absolute",
     fontFamily: "roboto-700",
-    color: "rgba(0,0,0,1)",
+    color: "rgb(255,255,255)",
     height: 22,
     width: 166
   },
@@ -224,7 +225,7 @@ const styles = StyleSheet.create({
     height: 559,
     marginLeft: 183
   },
-  loremIpsumRow: {
+  texxtRow: {
     height: 559,
     flexDirection: "row",
     marginTop: 8,
