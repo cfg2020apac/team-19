@@ -37,5 +37,5 @@ We used React Native to build the mobile app and React to build the web console 
 <ol>
   <li>Following the Singapore policies for personal data collection and storage(PDPA, etc.)</li>
   <li>Encrypt database.</li>
-  <li>Have a data retention policy. E.g. Destory all data relating to the client within 3 months of him moving into a house.</li>
+  <li>Have a data retention policy. E.g. Destory all data relating to the client after 7 years of him moving into a house/termination of service</li>
 <ol>
